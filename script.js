@@ -35,11 +35,11 @@ function getHumanChoice() {
     //keep track of them
 
 function playGame() {
-    let humanScore = 0;
-    let computerScore = 0;
-
 //playRound function params humanChoice and computerChoice
+    let n = prompt("How many rounds do you want to play?")
     function playRound(){
+        let humanScore = 0;
+        let computerScore = 0;    
         const humanChoice = getHumanChoice();
         const computerChoice = getComputerChoice();   
         if (humanChoice == 'paper' && computerChoice == 'scissor') {
@@ -65,7 +65,7 @@ function playGame() {
         }
     }
 
-    for(let i = 0; i < 5;i++) {
+    for(let i = 0; i < n;i++) {
         playRound();
     }
 }
