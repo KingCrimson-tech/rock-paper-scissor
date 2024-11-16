@@ -8,9 +8,6 @@ const choices = ['rock', 'paper', 'scissor'];
 function getComputerChoice(){
     return choices[Math.floor(Math.random() * choices.length)];
 }
-    //test it
-    // const computerChoice = getComputerChoice()
-    // console.log(computerChoice)
 
 //getHumanChoice
     //use prompt to return the valid choice from the user
@@ -25,14 +22,6 @@ function getHumanChoice() {
         }
     }
 }
-
-    //test it
-    // const humanChoice = getHumanChoice()
-    // console.log(humanChoice)
-
-//game variables
-    //humanScore and computerScore(global)
-    //keep track of them
 
 function playGame() {
 //playRound function params humanChoice and computerChoice
