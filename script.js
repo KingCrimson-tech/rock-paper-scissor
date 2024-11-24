@@ -17,7 +17,7 @@ let gameOver = false;
 function playGame(choice) {
     if (gameOver) return;
 
-    if (roundCount == 4) {
+    if (roundCount == 5) {
         if (humanScore > computerScore) {
             instruction.textContent = "Game over You WON!!";     
         }else if (computerScore > humanScore){
