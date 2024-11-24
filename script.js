@@ -52,5 +52,4 @@ function playGame(choice) {
 
     score.textContent = `You : ${humanScore} Computer : ${computerScore}`;
     roundCount++;
-    console.log(roundCount);
 }
